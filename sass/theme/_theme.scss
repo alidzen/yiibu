@@ -1,0 +1,64 @@
+/* ==========================================================================
+   Theme styles.
+   ========================================================================== */
+
+    /* Body */
+body {
+    max-width: 1056px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 1em;
+    font-weight: 300;
+    font-family: $font;
+    line-height: $base_lh; /*  */
+    color: $color_grey;
+    vertical-align: baseline;
+    background-color: $color_bg;
+    border-top: $border_big;
+}
+
+
+    /* Main text */
+h1 {
+    font-size: 2.6em; /* 42px */
+    line-height: $base_lh; 
+    color: $color_blue;
+}
+
+h2 {
+    font-size: 1.65em;
+    color: $color_blue;
+    line-height: $base_lh;
+    margin-top: .2em;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: $color_black;
+    font-weight: 500;
+    margin-top: .5em; 
+    margin-bottom: .5em;
+}
+
+a {
+    color: $color_blue;
+    
+    &:hover,
+    &:focus {
+        color: $color_green;
+        transition-delay: .1s;
+    }
+}
+
+ol li, 
+ul li {
+    margin-left: 1.2em;
+    padding: 0.25em 0;
+}
+
+img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}

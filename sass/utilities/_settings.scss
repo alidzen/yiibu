@@ -1,0 +1,64 @@
+/* ==========================================================================
+   Site settings.
+   ========================================================================== */
+
+   /* Typograthy */
+$base_fs: 16px;
+$font: "Roboto", "Helvetica", "Arial", sans-serif;
+
+$baseline: $base_fs * 1.5;
+$base_lh: 1.4em;
+//   $c_blue: ;/* and so on... */
+
+    /* Colors */
+$color_grey: #666666;
+$color_blue: #4870d3;
+$color_black: #000000;
+
+$color_bg: #f8f8f8;
+
+$color_green: #97c02f;  
+
+$color_hr: #dddddd;
+
+
+    /* Main border -top, -bottom */
+$border_big: 5px solid #a7b742;
+$border_main: 1px solid #dddddd;
+
+    /* Margin */
+$margin_general: 0 .7%; /* Margin all content left, right */
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.section_begin {
+    margin-top: 1em;
+    float: left;
+    padding-bottom: 2em;
+    border-bottom: $border_main;
+    
+    &:before,
+    &:after {
+        @extend .clearfix;
+    }
+}
+/* Because in many part one beginings */
+
+.column_three {
+    float: left;
+    width: 32%;
+    box-sizing: border-box;
+    margin-right: 2%;
+
+    &:last-of-type {
+        margin-right: 0;
+    }
+}
+
+/* Then need three column in section */
+
+
