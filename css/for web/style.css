@@ -43,7 +43,7 @@
    ========================================================================== */
 /* line 136, icons/*.png */
 .icons-sprite, .icons-dotmobi, .icons-intel, .icons-kew, .icons-macmillan-cancer-support, .icons-microsoft, .icons-nhs24, .icons-nielsen-norman-group, .icons-nokia, .icons-opera, .icons-philips, .icons-symbian, .icons-vodafone {
-  background-image: url('/img/icons-s364b1dec81.png');
+  background-image: url('../img/icons-s364b1dec81.png');
   background-repeat: no-repeat;
 }
 
@@ -229,6 +229,7 @@ a {
 /* line 47, ../sass/base/_base.scss */
 a:hover, a:focus {
   color: #97c02f;
+  -webkit-transition-delay: .1s;
   transition-delay: .1s;
 }
 
