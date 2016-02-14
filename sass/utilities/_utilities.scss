@@ -1,0 +1,10 @@
+/* ==========================================================================
+   Utilities.
+   ========================================================================== */
+
+@import "compass/utilities/sprites";
+@import "icons/*.png";
+@include all-icons-sprites;
+
+// Get the image size
+$height: icons-sprite-height(microsoft) - 5px;

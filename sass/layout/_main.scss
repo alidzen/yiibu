@@ -1,0 +1,161 @@
+/* ==========================================================================
+   Main styles
+   ========================================================================== */
+
+.l_main {
+    margin: $margin_general;
+    @extend .clearfix;
+}
+
+
+
+
+.future_slogan {
+    margin-bottom: .6em;
+    }
+
+.future_subtext {
+    font-size: 1.7em;
+    padding-bottom: 1em;
+    line-height: $base_lh;
+    border-bottom: $border_main;
+    }
+
+
+
+
+
+.principles {
+    margin-top: 1em;
+    padding-bottom: 3em;
+    border-bottom: $border_main;
+
+    &:before,
+    &:after {
+        @extend.clearfix;
+    }
+
+    .item_of_principles {
+        float: left;
+        width: 32%;
+        box-sizing: border-box;
+        margin-right: 2%;
+
+        &:last-of-type {
+        margin-right: 0;
+        }
+    }
+}
+
+
+
+
+
+.clients {
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+    border-bottom: $border_main;
+
+    &:before,
+    &:after {
+        @extend .clearfix;
+    }
+
+    .item_of_clients {
+        float: left;
+        display: block;
+        height: $height;
+        width: 16.6%;
+        margin: 1em 0;
+    }
+}
+
+
+
+
+
+.expertise {
+    @extend .section_begin;
+
+    .name_of_expertise {
+        @extend .column_three;
+        
+        .list_of_expertise {
+            list-style: disc;
+        }
+    }
+}
+
+
+
+
+
+.philosophy {
+    @extend .section_begin;
+    @extend .clearfix;
+    
+    p {
+        margin-bottom: 1em;
+    }
+    
+    .philosophy_list {
+        float: left;
+        width: 24.05%;
+        margin: 0 1.25% .65em 0;
+        background: none repeat scroll #ffffff;
+        border-bottom: $border_main;
+        border-bottom-width: 2px;
+        
+        &:nth-child(4),
+        &:nth-child(8) {
+            margin-right: 0;
+        }
+        
+        a {
+            display: block;
+            padding-left: .35em;
+            text-decoration: none;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        
+        span {
+            display: block;
+            padding:  .15rem 0 .45rem;
+            padding-left: .35em;
+            color: $color_grey;
+            font-size: .7em;
+            line-height: 1.2em;
+            vertical-align: bottom;
+        }
+        
+    }
+    
+    .nine_element {
+        display: none;
+    }
+}
+
+
+
+
+.appearances {
+    @extend .section_begin;
+    
+    border-bottom: none;
+    
+    .appearances_item {
+        @extend .column_three;
+    }
+    
+    h3 {
+        margin-top: .5em;
+        margin-bottom: .3em;
+    }
+    
+}
+/* mean layout main */
+
+
+
